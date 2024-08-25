@@ -1,6 +1,12 @@
-# G'day, I'm Matt 👋
+---
+layout: baseLayout.tsx
+title: Matthew Kolega | Software Developer
+---
+# G'day 👋, I'm Matt
 
-I'm a software developer from Australia with a passion for solving complex problems and exploring new technologies. I hold a degree in computer science and am currently working as a web developer, where I primarily use WordPress and PHP. Beyond my job, I'm also proficient in C++, JavaScript/TypeScript and Python.
+I'm a software developer from Australia with a passion for solving complex problems and exploring new technologies. 
+
+I hold a degree in computer science and am currently working as a web developer, where I primarily use WordPress and PHP. Beyond my job, I'm also proficient in C++, JavaScript/TypeScript and Python.
 
 This site is made with **Lume** which is a flexible framework that allows me to make easy updates and expansions in the future.
 
