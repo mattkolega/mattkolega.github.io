@@ -10,4 +10,6 @@ const site = lume({
 site.use(jsx());
 site.use(lightningCss());
 
+site.copy("assets/fonts");
+
 export default site;

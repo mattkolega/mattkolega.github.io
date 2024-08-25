@@ -1,7 +1,16 @@
-body {
-    font-family: Inter, sans-serif;
+@font-face {
+    font-family: "Inter";
+    src: url("./assets/fonts/InterVariable.woff2") format('woff2'),
+         url("./assets/fonts/InterVariable.woff2") format('woff'),
+         url("./assets/fonts/InterVariable.woff2") format('truetype');
+}
+
+:root {
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
 }
 
 main {
+    max-width: min(100% - 15vw, 45rem);
     margin: 0 auto;
 }
