@@ -3,7 +3,8 @@ import jsx from "lume/plugins/jsx.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 
 const site = lume({
-    src: "./src",
+    src: "./site",
+    dest: "./output",
 });
 
 site.use(jsx());

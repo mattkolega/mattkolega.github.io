@@ -1,5 +1,5 @@
 ---
-layout: baseLayout.tsx
+layout: layouts/base.tsx
 title: Matthew Kolega | Software Developer
 ---
 # G'day 👋, I'm Matt
