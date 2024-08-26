@@ -20,7 +20,7 @@ const type = () => {
     }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+globalThis.addEventListener("load", () => {
     setTimeout(function() {  // function() block is required so timeout is respected by the event listener
         type();
     }, 300);
