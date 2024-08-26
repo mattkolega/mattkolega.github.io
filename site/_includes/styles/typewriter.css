@@ -1,0 +1,25 @@
+.typed-heading {
+    display: flex;
+    align-items: center;
+    line-height: 2rem;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+    background: black;
+}
+
+.cursor.blink {
+    animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        background: black;
+    }
+    40%, 50% {
+        background: transparent;
+    }
+}

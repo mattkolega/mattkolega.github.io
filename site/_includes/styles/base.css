@@ -20,6 +20,6 @@
 }
 
 main {
-    max-width: min(100% - 15vw, 45rem);
+    max-width: min(100% - 12vw, 45rem);
     margin: 0 auto;
 }

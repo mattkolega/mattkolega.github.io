@@ -14,5 +14,6 @@ site.use(lightningCss());
 site.use(mdx());
 
 site.copy("assets/fonts");
+site.copy("assets/scripts");
 
 export default site;
