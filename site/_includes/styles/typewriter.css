@@ -1,4 +1,5 @@
 .typed-heading {
+    font-family: Ubuntu Mono, monospace;
     display: flex;
     align-items: center;
     line-height: 2rem;

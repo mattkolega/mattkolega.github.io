@@ -1,4 +1,7 @@
 /* This file will be processed by lightningCSS and then copied into the output folder */
 
 @import "./_includes/styles/base.css";
-@import "./_includes/styles/typewriter.css"
+@import "./_includes/styles/typewriter.css";
+
+/* Import all fonts */
+@import "./fonts.css";
