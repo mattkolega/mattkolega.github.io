@@ -11,6 +11,9 @@ export default ({title, children}: Lume.Data) => {
         <main>
           {children}
         </main>
+        <footer>
+          &copy; Matthew Kolega 2024
+        </footer>
       </body>
     </html>
   );
