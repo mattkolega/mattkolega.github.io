@@ -1,4 +1,6 @@
 :root {
+    background-color: #fafafa;
+    color: #1f1f1f;
     font-family: Manrope, sans-serif;
     font-size: 1.1rem;
     font-weight: 450;
@@ -8,4 +10,20 @@
 main {
     max-width: min(100% - 12vw, 45rem);
     margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+a {
+    color: #086dba;
+    font-weight: 550;
+}
+
+a:hover {
+    color: #064b80;
 }
