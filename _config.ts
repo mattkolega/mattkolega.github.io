@@ -1,8 +1,10 @@
 import lume from "lume/mod.ts";
+
 import googleFonts from "lume/plugins/google_fonts.ts";
 import jsx from "lume/plugins/jsx.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 import mdx from "lume/plugins/mdx.ts";
+import svgo from "lume/plugins/svgo.ts";
 
 const site = lume({
     src: "./site",
@@ -16,7 +18,9 @@ site.use(googleFonts({
 site.use(jsx());
 site.use(lightningCss());
 site.use(mdx());
+site.use(svgo());
 
+site.copy("assets/icons");
 site.copy("assets/scripts");
 
 export default site;
