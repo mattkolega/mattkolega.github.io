@@ -5,6 +5,7 @@ import jsx from "lume/plugins/jsx.ts";
 import lightningCss from "lume/plugins/lightningcss.ts";
 import mdx from "lume/plugins/mdx.ts";
 import svgo from "lume/plugins/svgo.ts";
+import terser from "lume/plugins/terser.ts";
 
 const site = lume({
     src: "./site",
@@ -19,6 +20,7 @@ site.use(jsx());
 site.use(lightningCss());
 site.use(mdx());
 site.use(svgo());
+site.use(terser());
 
 site.copy("assets/icons");
 site.copy("assets/scripts");
