@@ -14,7 +14,7 @@ export default ({title, children}: Lume.Data) => {
           <nav>
             <a href="">Home</a>
           </nav>
-          <button id="theme-switcher">
+          <button id="theme-switcher" title="Toggle page colour scheme">
             <svg>
               <use href="./assets/icons/moon.svg#darkIcon" />
             </svg>
